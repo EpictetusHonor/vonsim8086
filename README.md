@@ -21,21 +21,21 @@ El objetivo es proporcionar una referencia estructurada para la práctica de pro
 
 Conjunto de instrucciones:
 
-- Transferencia de datos: MOV, XCHG, PUSH, POP, etc.
+- Transferencia de datos: MOV, PUSH, POP, etc.
 
-- Aritméticas: ADD, SUB, MUL, DIV, INC, DEC.
+- Aritméticas: ADD, SUB, INC, DEC.
 
-- Lógicas: AND, OR, XOR, NOT, SHL, SHR.
+- Lógicas: AND, OR, XOR, NOT.
 
-- Control de flujo: JMP, saltos condicionales (JE, JNE, JG, etc.), CALL, RET.
+- Control de flujo: JMP, saltos condicionales (JZ, JN, JNZ, etc.), CALL, RET, IRET.
 
-Comparaciones: CMP, TEST.
+Comparaciones: CMP.
 
 - Modelo de memoria: Memoria segmentada, siguiendo convenciones del 8086.
 
 - Ejecución: Simulación paso a paso con visualización de registros y memoria.
 
-- Propósito: Herramienta educativa para la práctica de programación de bajo nivel y experimentos con arquitecturas de estilo Von Neumann.
+- Propósito: Herramienta educativa para la práctica de programación de bajo nivel y experimentos con arquitecturas de estilo Von Neumann. Permite una vista visual del proceso del modelo Von Neumann con sus respectivas animaciones.
 
 
 ## 🔌 Dispositivos simulados
@@ -81,6 +81,8 @@ Impresora (Printer):
 
   Tanto el PIO como el PIC cuentan con impresoras particulares lo que difiere son sus manejos y sus funciones (la del pic permite interrupciones mientras se procesan otras instrucciones mientras que la del pio mantiene en constante 
   revision al procesador en un estado de espera activa).
+  
+  LINK DE VONSIM: https://vonsim.github.io/
 
 ---
 
@@ -99,9 +101,12 @@ Impresora (Printer):
 
 Un programa simple que suma dos números y guarda el resultado:
 
+
 ```asm
 ; Suma de dos números
 MOV AX, 5
 MOV BX, 3
 ADD AX, BX
 ; Resultado almacenado en AX = 8
+´´´
+LINK DE VONSIM:
