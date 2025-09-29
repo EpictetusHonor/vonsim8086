@@ -79,8 +79,8 @@ Impresora (Printer):
 
     Permite redirigir datos enviados a un puerto de E/S para visualizar “impresiones” simuladas junto con su tiempo de demora y su busy que indica que esta ocupada.
 
-  Tanto el PIO como el PIC cuentan con impresoras particulares lo que difiere son sus manejos y sus funciones (la del pic permite interrupciones mientras se procesan otras instrucciones mientras que la del pio hay que chequearla 
-  constantemente esperando a que se desocupe).
+  Tanto el PIO como el PIC cuentan con impresoras particulares lo que difiere son sus manejos y sus funciones (la del pic permite interrupciones mientras se procesan otras instrucciones mientras que la del pio mantiene en constante 
+  revision al procesador en un estado de espera activa).
 
 ---
 
