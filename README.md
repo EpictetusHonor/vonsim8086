@@ -1,30 +1,33 @@
 # Vonsim8086
-Collection of assembly programs developed for the VonSim simulator (x86-like, 8086 style).   This repository serves as an archive of exercises, old exam solutions, and personal notes from my Computer Engineering studies.   It is intended as a structured reference for practicing low-level programming and experimenting with Von Neumann–style arch.
+Colección de programas en ensamblador desarrollados para el simulador VonSim (similar a x86, estilo 8086).  
+Este repositorio funciona como un archivo de ejercicios, soluciones de parciales viejos y apuntes personales de mis estudios en Ingeniería en Computación.  
+Está pensado como una referencia estructurada para practicar programación de bajo nivel y experimentar con arquitecturas de estilo Von Neumann.
 
-# VonSim Assembly Programs
+# Programas en Ensamblador para VonSim
 
-This repository contains a collection of assembly programs written for the **VonSim simulator** (x86-like, 8086 style).  
-It is primarily a personal archive of exercises, old exam problems, and experiments carried out during my Computer Engineering studies.  
-The goal is to provide a structured reference for low-level programming practice.
+Este repositorio contiene una colección de programas en ensamblador escritos para el **simulador VonSim** (similar a x86, estilo 8086).  
+Es principalmente un archivo personal de ejercicios, problemas de parciales antiguos y experimentos realizados durante mis estudios de Ingeniería en Computación.  
+El objetivo es proporcionar una referencia estructurada para la práctica de programación de bajo nivel.
 
 ---
 
-## 📂 Repository Structure
+## 📂 Estructura del Repositorio
 
-/docs → Notes, guides, or references
-/programs
-├── exams → Old exam solutions in assembly
-├── practice → Small exercises and partial programs
-└── projects → Larger or complete programs
+/docs → Notas, guías o referencias 
+/programs  
+  ├── exams → Soluciones de parciales en ensamblador  
+  ├── practice → Ejercicios pequeños y programas parciales  
+  └── projects → Programas más grandes o completos  
+
 ---
 
-## 🖥️ Example Program
+## 🖥️ Programa de Ejemplo
 
-A simple program that adds two numbers and stores the result:
+Un programa simple que suma dos números y guarda el resultado:
 
 ```asm
-; Addition of two numbers
+; Suma de dos números
 MOV AX, 5
 MOV BX, 3
 ADD AX, BX
-; Result in AX = 8
+; Resultado en AX = 8
