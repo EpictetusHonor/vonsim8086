@@ -1,10 +1,12 @@
-## Registry:
-## CA Y CB
-dependiendo de si reciben o envian se configuran con 1 (entrada) o 0 (salida).
+REGISTROS:
+' CA Y CB
+    Dependiendo de si reciben o envian se configuran con 1 (entrada) o 0 (salida).
 
-    // llaves               // impresora, recibe busy y envia strobe             
-## PA
-recibe info de llaves / recibe busy o envia strobe (señal para imprimir).
-    // luces                    // impresora, envia datos
-## PB
-envia que luces prenderse / envia datos.
+                 
+' PA
+    // llaves               // impresora
+    Recibe info de llaves / recibe busy o envia strobe (señal para imprimir).
+    
+' PB
+    // luces                    // impresora
+    Envia que luces prenderse / envia datos.
