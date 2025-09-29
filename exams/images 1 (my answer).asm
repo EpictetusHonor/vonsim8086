@@ -1,5 +1,4 @@
 ´´´asm
-Ejercicio imagen 1
 
 pa equ 30h
 pb equ 31h
