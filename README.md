@@ -104,4 +104,4 @@ Un programa simple que suma dos números y guarda el resultado:
 MOV AX, 5
 MOV BX, 3
 ADD AX, BX
-; Resultado en AX = 8
+; Resultado almacenado en AX = 8
