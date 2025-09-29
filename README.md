@@ -13,7 +13,8 @@ El objetivo es proporcionar una referencia estructurada para la práctica de pro
 
 ## 📂 Estructura del Repositorio
 
-/docs → Notas, guías o referencias 
+/docs → Notas, guías o referencias
+
 /programs  
   ├── exams → Soluciones de parciales en ensamblador  
   ├── practice → Ejercicios pequeños y programas parciales  
