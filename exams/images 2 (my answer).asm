@@ -24,6 +24,7 @@ f10_runtime:
 org 3000h
 libre:
   push ax
+  cli
   mov al,[bx]
   out pb,al
   mov al,00000000b
@@ -33,6 +34,7 @@ libre:
   inc bx
   cmp byte ptr[bx],0
   jz termina
+  sti
   pop ax
   ret
 termina: 
